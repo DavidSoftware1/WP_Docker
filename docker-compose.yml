@@ -51,6 +51,7 @@ services:
     volumes:
       - wordpress-core:/var/www/html/
       - ./my_theme:/var/www/html/wp-content/themes/my_theme
+       - ./Astra:/var/www/html/wp-content/themes/astra
 
     networks:
       - wordpress-network
